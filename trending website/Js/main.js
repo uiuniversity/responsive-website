@@ -3,8 +3,8 @@ jQuery(document).ready(function($){
         items:1,
         center:false,
         autoWidth:true,
-        loop:true,
-        autoplay:true,
+        // loop:true,
+        // autoplay:true,
         autoplayTimeout:3000,
         pagination:false,
         dots: false,
@@ -13,6 +13,7 @@ jQuery(document).ready(function($){
             600:{
                 items:1,
             },
+           
         }
 
     });
@@ -21,6 +22,10 @@ jQuery(document).ready(function($){
         $( '.casestudies_images').removeClass('active');
         $(this).addClass('active');
     } );
+
+   $(document).on('click', '.menu-icon', function(){
+    $('.menu').toggleClass('active');
+   })
     
 
 });

@@ -65,6 +65,51 @@ header nav .get-started{
   justify-content: center;
   cursor: pointer;
 }
+.menu-icon {
+  display: none;
+}
+.ham {
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+  transition: transform 400ms;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  width: 40px;
+
+}
+.hamRotate.active {
+  transform: rotate(45deg);
+}
+.hamRotate180.active {
+  transform: rotate(180deg);
+}
+.line {
+  fill:none;
+  transition: stroke-dasharray 400ms, stroke-dashoffset 400ms;
+  stroke:#fff;
+  stroke-width:5.5;
+  stroke-linecap:round;
+}
+.ham6 .top {
+  stroke-dasharray: 40 172;
+}
+.ham6 .middle {
+  stroke-dasharray: 40 111;
+}
+.ham6 .bottom {
+  stroke-dasharray: 40 172;
+}
+.ham6.active .top {
+  stroke-dashoffset: -132px;
+}
+.ham6.active .middle {
+  stroke-dashoffset: -71px;
+}
+.ham6.active .bottom {
+  stroke-dashoffset: -132px;
+}
 
 /* ----------
 HERO SECTION STYLE
@@ -249,6 +294,7 @@ BRAND LOGO
   align-items: center;
   justify-content: center;
   gap: 90px;
+  /* overflow-x: hidden; */
 }
 /* ---------------
 workers-gallery Style
@@ -585,7 +631,19 @@ World WiDE SECTION
   background-position: center;
   background-size: contain;
 }
-
+span.img {
+  width: 221px;
+  height: 103px;
+  display: inline-block;
+}
+span.img2 {
+  width: 406px;
+  height: 103px;
+  display: inline-block;
+}
+span.img img, span.img2 img{
+  width: 100%;
+}
 /*------------------
 FOOTER DESIGN
 ---------------------*/

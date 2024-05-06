@@ -1,0 +1,475 @@
+/*-----------
+DESKTOPS
+-------------*/
+@media screen and (max-width: 1440px) {
+/*--------------
+  Hero Section
+----------------- */
+.hero_section .right_section{
+  width: 50%;
+}
+.hero_section .right_section img{
+  width: 100%;
+}
+.hero_section .left-section h1, .software-section .software-content h1, .customization-section .customization-content h1{
+  font-size: 100px;
+  line-height: 120px;
+}
+
+/* --------------
+ENVIRONMENT Styling
+------------------ */
+.environment .environment-img3{
+  right: -30%;
+}
+
+
+
+/* ----------
+BRAND LOGO
+-------------- */
+.brand_logo{
+  gap: 50px;
+}
+
+
+/* ---------------
+workers-gallery Style
+-------------------- */
+.workers-gallery{
+  padding: 100px 0px;
+}
+.workers-gallery .worker1{
+  width: 280px;
+  height: 320px;
+}
+.workers-gallery .worker1 img{
+  width: 100%;
+  height: 100%;
+}
+
+/* -------------
+Expirience Section 
+---------------- */
+.experirence{
+  display: none;
+}
+
+/* ----------------
+Team Members Styling
+------------------- */
+
+.team_members .members_list{
+  min-width: 930px;
+  width: 930px;
+}
+
+/* -------------
+SOFTWARE SECTION & CUSTOMIZATION SECTION
+------------------ */
+.software-content-img, .customization-content-img{
+  width: 50%;
+}
+.software-content-img img,  .customization-content-img img{
+  width: 100%;
+}
+.software-section .software-content p, .customization-section .customization-content p{
+  width: 500px;
+}
+.software-section,  .customization-section{
+  padding: 80px;
+}
+/* --------------
+World WiDE SECTION
+-----------------*/
+.worldwide{
+  max-width: 1350px;
+}
+.worldwide  .worldwide_content, .worldwide   .worldwide_content h3{
+  font-size: 90px;
+  line-height: 105px;
+}
+.worldwide  .worldwide_content span.arrow{
+  width: 350px;
+  height: 75px;
+}
+span.img1{
+  width: 170px;
+  height: 90px;
+}
+span.img2{
+  width: 380px;
+  height: 80px;
+}
+.worldwide  .worldwide_content span.getstarted{
+  width: 700px;
+  height: 70px;
+}
+}
+
+/*-----------
+LAPTOPS
+-------------*/
+
+@media screen and (max-width: 1024px) {
+/*-----------
+header 
+-------------*/
+header nav{
+  padding: 10px 15px 30px 15px;
+}
+header .logo{
+width: 150px;
+}
+header .logo img{
+  width: 100%;
+}
+header nav .get-started{
+  width: 130px;
+  height: 50px;
+  font-size: 20px;
+  border-radius: 8px;
+}
+header nav .menu ul{
+  gap: 20px;
+}
+header nav .menu ul li{
+  font-size: 20px;
+}
+/*--------------
+Hero Section
+----------------- */
+.hero_section .left-section h1, .software-section .software-content h1, .customization-section .customization-content h1,          .environment h1 {
+  font-size: 65px;
+  line-height: 65px;
+}
+.hero_section .left-section{
+  padding-left: 15px;
+}
+.hero_section .left-section .generator{
+  width: 307px;
+  height: 50px;
+  font-size: 20px;
+  border-radius: 8px;
+}
+.hero_section .left-section .get-started{
+  width: 150px;
+  height: 50px;
+  font-size: 20px;
+  border-radius: 8px;
+}
+/* --------------
+ENVIRONMENT Styling
+------------------ */
+.environment p{
+  font-size: 20px;
+  line-height: 35px;
+}
+.environment .environment-img3{
+  right: -6%;
+}
+.environment .environment-img4{
+  right: -10%;
+}
+
+/* ----------
+BRAND LOGO
+-------------- */
+.brand_logo{
+  gap: 10px;
+}
+
+/* ---------------
+workers-gallery Style
+-------------------- */
+.workers-gallery .worker1{
+  width: 250px;
+  height: 250px;
+}
+
+/* ----------------
+Team Members Styling
+------------------- */
+.team_members .members_list{
+  min-width: 845px;
+  width: 845px;
+}
+.team_members .members_list .member-role{
+  font-size: 70px;
+}
+.team_members .members_list .member-name{
+  font-size: 75px;
+}
+.team_members .members_list  .member-discription{
+  font-size: 20px;
+  line-height: 36px;
+}
+/* -------------
+SOFTWARE SECTION & CUSTOMIZATION SECTION
+------------------ */
+.software-section .software-content p, .customization-section .customization-content p{
+  font-size: 20px;
+  line-height: 30px;
+}
+.software-section .software-content .software-btn{
+  font-size: 20px;
+  width: 230px;
+  height: 50px;
+}
+.customization-section .customization-content .customization-btn{
+  font-size: 20px;
+  width: 175px;
+  height: 50px;
+}
+/*---------------
+CASE STUDIES SECTION
+----------------- */
+.case-studies h1{
+  font-size: 80px;
+  line-height: 100px;
+  padding-left: 25px;
+}
+.case-studies .case-studies-photos{
+  gap: 10px;
+}
+
+/* --------------
+World WiDE SECTION
+-----------------*/
+.worldwide{
+  max-width: 900px;
+  padding: 25px;
+}
+.worldwide .worldwide_content, .worldwide .worldwide_content  h3{
+  font-size: 60px;
+  line-height: 90px;
+}
+.worldwide .worldwide_content span.arrow{
+  width: 300px;
+  height: 45px;
+}
+span.img{
+  width: 120px;
+  height: 80px;
+}
+span.img2{
+  width: 290px;
+  height: 80px;
+}
+.worldwide .worldwide_content span.getstarted{
+  width: 500px;
+  height: 50px;
+}
+/* --------------
+FOOTER
+-----------------*/
+
+footer{
+  padding: 50px 15px;
+  flex-wrap: wrap;
+  row-gap: 20px;
+}
+footer .logo, footer .exp, footer .about, footer .contact{
+  width: 50%;
+}
+footer ul li:first-child{
+  padding-bottom: 20px;
+}
+ 
+}
+/*-----------
+TABLETS
+-------------*/
+
+@media screen and (max-width: 768px) {
+/*-----------
+header 
+-------------*/
+.menu{
+  display: none;
+}
+.menu-icon{
+  display: block;
+  position: relative;
+  z-index: 2;
+}
+.menu.active{
+  display: block;
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  background-color: #3d3d3d;
+  z-index: 1;
+}
+.menu.active ul{
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+.menu.active ul li{
+  font-size: 35px;
+}
+/*--------------
+Hero Section
+----------------- */
+.hero_section{
+  flex-direction: column-reverse;
+  row-gap: 50px;
+}
+.hero_section .right_section{
+  width: 100%;
+}
+.hero_section .left-section p{
+  width: auto;
+}
+.hero_section .left-section h1, .software-section .software-content h1, .customization-section .customization-content h1,          .environment h1 {
+  font-size: 55px;
+  line-height: 60px;
+}
+/* --------------
+ENVIRONMENT Styling
+------------------ */
+.environment{
+  width: auto;
+  padding: 100px 15px 50px 15px;
+}
+.environment .environment-img1, .environment .environment-img2, .environment .environment-img3, .environment .environment-img4{
+  display: none;
+
+}
+
+/* ----------
+BRAND LOGO
+-------------- */
+.brand_logo{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.brand_logo .logo1, .brand_logo .logo2, .brand_logo .logo3, .brand_logo .logo4, .brand_logo .logo5, .brand_logo .logo6, .brand_logo .logo7, .brand_logo .logo8{
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+/* ---------------
+workers-gallery Style
+-------------------- */
+.workers-gallery{
+  display: none;
+}
+
+/* ----------------
+Team Members Styling
+------------------- */
+.team_members{
+  padding-left: 70px;
+  padding-top: 50px;
+}
+.team_members .members_list{
+  min-width:600px;
+  width: 600px;
+  height: 523px;
+}
+.owl-stage{
+  gap: 10px;
+}
+
+/* -------------
+SOFTWARE SECTION & CUSTOMIZATION SECTION
+------------------ */
+.software-section .software-content p, .customization-section .customization-content p{
+  width: auto;
+}
+.software-section, .customization-section{
+  padding: 80px 20px;
+  flex-direction: column-reverse;
+}
+.customization-content-img, .software-content-img{
+  width: 100%;
+}
+/*---------------
+CASE STUDIES SECTION
+----------------- */
+
+/* --------------
+World WiDE SECTION
+-----------------*/
+
+/* --------------
+FOOTER
+-----------------*/
+
+footer .logo, footer .exp, footer .about, footer .contact{
+  width: 100%;
+}
+
+}
+/*-----------
+MOBILE PHONE
+-------------*/
+
+@media screen and (max-width: 500px) {
+/*--------------
+Hero Section
+----------------- */
+.hero_section .left-section .get-started{
+  margin-right: 0px;
+  margin-bottom: 15px;
+}
+
+/* --------------
+ENVIRONMENT Styling
+------------------ */
+.environment .environment-btn{
+  width: 310px;
+  height: 50px;
+}
+
+/* -------------
+SOFTWARE SECTION & CUSTOMIZATION SECTION
+------------------ */
+.software-section .software-content h1, .customization-section .customization-content h1{
+  width: auto;
+}
+
+/* ----------------
+Team Members Styling
+------------------- */
+.team_members{
+  padding-left: 15px;
+}
+.team_members .members_list{
+  min-width: 350px;
+  width: 450px;
+  height: 345px;
+}
+.team_members .members_list .member-role{
+  font-size: 28px;
+}
+.team_members .members_list .member-name{
+  font-size: 28px;
+}
+.team_members .members_list .member-discription{
+  font-size: 18px;
+  line-height: 28px;
+}
+.owl-stage{
+  flex-direction: column;
+}
+
+/* --------------
+World WiDE SECTION
+-----------------*/
+.worldwide .worldwide_content span.getstarted{
+  width: 340px;
+  height: 40px;
+}
+.worldwide .worldwide_content, .worldwide .worldwide_content h3{
+  font-size: 50px;
+  line-height: 60px
+}
+}
